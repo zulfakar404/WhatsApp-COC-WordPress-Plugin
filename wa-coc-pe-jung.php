@@ -30,7 +30,7 @@
         if ($jenis == "1") {
             ob_start();
             ?>
-			<form action="<?php echo PEJUNGLABS_WA_COC_URL;?>/libs/contact.php" method="POST">
+			<form action="<?php echo PEJUNGLABS_WA_COC_URL;?>libs/contact.php" method="POST">
 				<div class="batas">
 					<label>Nama</label>
 					<input type="text" class="wa-coc-pe-jung-input-text" placeholder="Nama Lengkap" name="nama" required>
@@ -48,7 +48,7 @@
 		elseif ($jenis == "2") {
             ob_start();
             ?>
-			<form action="<?php echo PEJUNGLABS_WA_COC_URL; ?>/libs/konfirmasi-pembayaran.php" method="POST" enctype="multipart/form-data">
+			<form action="<?php echo PEJUNGLABS_WA_COC_URL; ?>libs/konfirmasi-pembayaran.php" method="POST" enctype="multipart/form-data">
 				<div class="batas">
 					<label>Nama</label>
 					<input type="text" class="wa-coc-pe-jung-input-text" placeholder="Nama Lengkap" name="nama" required>
@@ -81,7 +81,7 @@
 		elseif ($jenis == "0") {
             ob_start();
             ?>
-			<form action="<?php echo PEJUNGLABS_WA_COC;?>/libs/custom.php" method="POST">
+			<form action="<?php echo PEJUNGLABS_WA_COC_URL;?>libs/custom.php" method="POST">
 				<div class="batas">
 					<label>Nama</label>
 					<input type="text" class="wa-coc-pe-jung-input-text" placeholder="Nama Lengkap" name="nama" required>
